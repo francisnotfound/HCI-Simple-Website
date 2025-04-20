@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale optimization is disabled for this session.
+1.0">
+    <title>Paws & Claws Pet Shop</title>
+    <link rel="icon" type="image/png" href="pictures/oiia">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Paws & Claws</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div>
+                <h1>Welcome to Paws & Claws</h1>
+                <p>Your one-stop shop for dog and cat products!</p>
+                <button onclick="document.getElementById('shop').scrollIntoView()">Shop Now</button>
+            </div>
+        </section>
+
+        <section id="shop" class="products">
+            <h2>Dog Section</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="pictures/dogfood.jpg" alt="Premium Dog Food">
+                    <h3>Premium Dog Food</h3>
+                    <p>₱ 500.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/toydog" alt="Interactive Dog Toy">
+                    <h3>Interactive Dog Toy</h3>
+                    <p>₱ 150.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/cozybed.png" alt="Cozy Dog Bed">
+                    <h3>Cozy Dog Bed</h3>
+                    <p>₱ 650.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/leash.jpg" alt="Durable Dog Leash">
+                    <h3>Durable Dog Leash</h3>
+                    <p>₱ 350.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/treat.jpg" alt="Organic Dog Treats">
+                    <h3>Organic Dog Treats</h3>
+                    <p>₱ 200.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/groom" alt="Dog Grooming Kit">
+                    <h3>Dog Grooming Kit</h3>
+                    <p>₱ 400.00</p>
+                </div>
+            </div>
+
+            <h2>Cat Section</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="pictures/catfood.png" alt="Premium Cat Food">
+                    <h3>Premium Cat Food</h3>
+                    <p>₱ 600.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/toycat.jpg" alt="Interactive Cat Toy">
+                    <h3>Interactive Cat Toy</h3>
+                    <p>₱ 100.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/catbed" alt="Cozy Cat Bed">
+                    <h3>Cozy Cat Bed</h3>
+                    <p>₱ 400.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/scratching.jpg" alt="Cat Scratching Post">
+                    <h3>Cat Scratching Post</h3>
+                    <p>₱ 500.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/treatcat.jpg" alt="Cat Treats">
+                    <h3>Cat Treats</h3>
+                    <p>₱ 20.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="pictures/litterbox.jpg" alt="Cat Litter Box">
+                    <h3>Cat Litter Box</h3>
+                    <p>₱ 100.00</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>
+                Paws & Claws is dedicated to providing high-quality products for your furry friends. 
+                We believe in making pet care simple and enjoyable, offering everything from food to toys 
+                that your dogs and cats will love. Our mission is to bring joy to pets and their owners alike.
+            </p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Paws & Claws. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
